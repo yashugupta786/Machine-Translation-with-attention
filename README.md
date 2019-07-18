@@ -21,11 +21,7 @@
     <link rel="stylesheet" href="/yashu.github.io/assets/css/style.css?v=96f8da8262a3d0d34d071a81556e6d835fca5a49">
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">yashu.github.io</h1>
-      <h2 class="project-tagline"></h2>
-      
-        <a href="https://github.com/yashugupta786/yashu.github.io" class="btn">View on GitHub</a>
+
       
       
     </section>
