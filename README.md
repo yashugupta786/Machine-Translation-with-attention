@@ -291,7 +291,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 <p><br /></p>
 
 <p>If you feel you’re ready to learn the implementation, be sure to check TensorFlow’s <a href="https://github.com/tensorflow/nmt">Neural Machine Translation (seq2seq) Tutorial</a>.</p>
-<p>Source for this awesome post <a href="https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention"</a></p>
+<p>Source for this awesome post <a href="https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention"></a></p>
 <hr />
 
 <p><br /></p>
