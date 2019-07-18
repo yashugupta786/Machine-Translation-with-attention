@@ -1,5 +1,4 @@
-      
-<p>&lt;!DOCTYPE html&gt;</p>
+
 <html>
   <head>
     <title>Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention) – Jay Alammar – Visualizing machine learning one concept at a time</title>
