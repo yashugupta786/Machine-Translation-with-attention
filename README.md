@@ -2,8 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>YOYOYOYOYVisualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention) – Jay Alammar – Visualizing machine learning one concept at a time</title>
-
+    <title>Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)
         <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -12,10 +11,6 @@
     
     <meta name="description" content="Translations: Chinese (Simplified), Korean
 
-Watch: MIT’s Deep Learning State of the Art lecture referencing this post
-
-May 25th update: New graphics (RNN animation, word embedding graph), color coding, elaborated on the final attention example.
-
 Note: The animations below are videos. Touch or hover on them (if you’re using a mouse) to get play controls so you can pause if needed.
 
 Sequence-to-sequence models are deep learning models that have achieved a lot of success in tasks like machine translation, text summarization, and image captioning. Google Translate started using such a model in production in late 2016. These models are explained in the two pioneering papers (Sutskever et al., 2014, Cho et al., 2014).
@@ -23,29 +18,6 @@ Sequence-to-sequence models are deep learning models that have achieved a lot of
 I found, however, that understanding the model well enough to implement it requires unraveling a series of concepts that build on top of each other. I thought that a bunch of these ideas would be more accessible if expressed visually. That’s what I aim to do in this post. You’ll need some previous understanding of deep learning to get through this post. I hope it can be a useful companion to reading the papers mentioned above (and the attention papers linked later in the post).
 
 A sequence-to-sequence model is a model that takes a sequence of items (words, letters, features of an images…etc) and outputs another sequence of items. A trained model would work like this:
-
-  
-  Your browser does not support the video tag.
-
-
-" />
-    <meta property="og:description" content="Translations: Chinese (Simplified), Korean
-
-Watch: MIT’s Deep Learning State of the Art lecture referencing this post
-
-May 25th update: New graphics (RNN animation, word embedding graph), color coding, elaborated on the final attention example.
-
-Note: The animations below are videos. Touch or hover on them (if you’re using a mouse) to get play controls so you can pause if needed.
-
-Sequence-to-sequence models are deep learning models that have achieved a lot of success in tasks like machine translation, text summarization, and image captioning. Google Translate started using such a model in production in late 2016. These models are explained in the two pioneering papers (Sutskever et al., 2014, Cho et al., 2014).
-
-I found, however, that understanding the model well enough to implement it requires unraveling a series of concepts that build on top of each other. I thought that a bunch of these ideas would be more accessible if expressed visually. That’s what I aim to do in this post. You’ll need some previous understanding of deep learning to get through this post. I hope it can be a useful companion to reading the papers mentioned above (and the attention papers linked later in the post).
-
-A sequence-to-sequence model is a model that takes a sequence of items (words, letters, features of an images…etc) and outputs another sequence of items. A trained model would work like this:
-
-  
-  Your browser does not support the video tag.
-
 
 " />
     
