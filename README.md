@@ -1,7 +1,6 @@
-
-<html>
+html>
   <head>
-    <title>Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention) – Jay Alammar – Visualizing machine learning one concept at a time</title>
+    <title>Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)</title>
 
         <meta charset="utf-8" />
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
@@ -48,7 +47,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 
 " />
     
-    <meta name="author" content="Jay Alammar" />
+ 
 
     
     <meta property="og:title" content="Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)" />
@@ -78,7 +77,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js" integrity="sha384-tdtuPw3yx/rnUGmnLNWXtfjb9fpmwexsd+lr6HUYnUY4B7JhB5Ty7a1mYd+kto/s" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="Jay Alammar - Visualizing machine learning one concept at a time" href="/feed.xml" />
+   
 
     <meta name="viewport" content="width=device-width" />
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
@@ -349,54 +348,16 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
     <!--End mc_embed_signup-->
 
-<div style="padding: 10px 0 10px 3%; color: #555; font-size:85%">
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-
-<br />
-Attribution example:
-<br />
-<i>Alammar, Jay (2018). The Illustrated Transformer [Blog post]. Retrieved from <a href="https://jalammar.github.io/illustrated-transformer/">https://jalammar.github.io/illustrated-transformer/</a></i>
-
-<br /><br />
-Note: If you translate any of the posts, let me know so I can link your translation to the original post. My email is in the <a href="/about">about page</a>.
-</div>
-
-
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
           
-
-
-
-<a href="https://github.com/jalammar"><i class="svg-icon github"></i></a>
-
-<a href="https://www.linkedin.com/in/jalammar"><i class="svg-icon linkedin"></i></a>
-
-
-<a href="https://www.twitter.com/jalammar"><i class="svg-icon twitter"></i></a>
-
-
-
-        </footer>
+       </footer>
       </div>
     </div>
 
     
-	<!-- Google Analytics -->
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-71956058-1', 'auto');
-		ga('send', 'pageview', {
-		  'page': '/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/',
-		  'title': 'Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)'
-		});
-	</script>
-	<!-- End Google Analytics -->
 
 
   </body>
