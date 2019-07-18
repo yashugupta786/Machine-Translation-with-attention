@@ -296,29 +296,6 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 
 <p><br /></p>
 
-<p>I hope you’ve found this useful. These visuals are early iterations of a lesson on attention that is part of the Udacity <a href="https://www.udacity.com/course/natural-language-processing-nanodegree--nd892">Natural Language Processing Nanodegree Program</a>. We go into more details in the lesson, including discussing applications and touching on more recent attention methods like the Transformer model from  <a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need</a>.</p>
-
-<p>Check out the trailer of the <a href="https://www.udacity.com/course/natural-language-processing-nanodegree--nd892">NLP Nanodegree Program</a>:</p>
-
-<div class="videoWrapper">
-<iframe width="560" height="349" src="https://www.youtube.com/embed/FggN0VtWYTk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-</div>
-
-<p>I’ve also created a few lessons as a part of Udacity’s <a href="https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t">Machine Learning Nanodegree Program</a>. The lessons I’ve created cover Unsupervised Learning, as well as a jupyter notebook on movie recommendations using collaborative filtering.</p>
-
-<p>I’d love any feedback you may have. Please reach me at <a href="https://twitter.com/jalammar">@jalammmar</a>.</p>
-
-  </div>
-
-  <div class="date">
-    Written on May  9, 2018
-  </div>
-
-  
-</article>
-
-    </div>
-
 
 
     <!-- Begin Mailchimp Signup Form -->
