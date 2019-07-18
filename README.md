@@ -31,7 +31,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 
 Watch: MIT’s Deep Learning State of the Art lecture referencing this post
 
-May 25th update: New graphics (RNN animation, word embedding graph), color coding, elaborated on the final attention example.
+
 
 Note: The animations below are videos. Touch or hover on them (if you’re using a mouse) to get play controls so you can pause if needed.
 
@@ -291,6 +291,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 <p><br /></p>
 
 <p>If you feel you’re ready to learn the implementation, be sure to check TensorFlow’s <a href="https://github.com/tensorflow/nmt">Neural Machine Translation (seq2seq) Tutorial</a>.</p>
+<h1>Github Link <a href="https://github.com/yashugupta786">Yashu Github link </a></h1>
 <p>Source post all credits goes to Jalammar <a href="https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention">NMT Jalammar post</a></p>
 <hr />
 
