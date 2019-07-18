@@ -135,7 +135,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 <p>In neural machine translation, a sequence is a series of words, processed one after another. The output is, likewise, a series of words:</p>
 
 <video width="100%" height="auto" loop="" autoplay="" controls="">
-  <source src="/images/seq2seq_2.mp4" type="video/mp4" />
+  <source src="seq2seq_2.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -146,7 +146,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 <p>The <span class="encoder">encoder</span> processes each item in the input sequence, it compiles the information it captures into a vector (called the <span class="context">context</span>). After processing the entire input sequence, the <span class="encoder">encoder</span> send the <span class="context">context</span>  over to the <span class="decoder">decoder</span>, which begins producing the output sequence item by item.</p>
 
 <video width="100%" height="auto" loop="" autoplay="" controls="">
-  <source src="/images/seq2seq_3.mp4" type="video/mp4" />
+  <source src="seq2seq_3.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -155,14 +155,14 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 <p>The same applies in the case of machine translation.</p>
 
 <video width="100%" height="auto" loop="" autoplay="" controls="">
-  <source src="/images/seq2seq_4.mp4" type="video/mp4" />
+  <source src="seq2seq_4.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
 <p>The <span class="context">context</span>  is a vector (an array of numbers, basically) in the case of machine translation. The <span class="encoder">encoder</span> and <span class="decoder">decoder</span>  tend to both be recurrent neural networks (Be sure to check out Luis Serrano’s <a href="https://www.youtube.com/watch?v=UNmqTiOnRfg">A friendly introduction to Recurrent Neural Networks</a> for an intro to RNNs).</p>
 
 <div class="img-div">
-    <img src="/images/context.png" />
+    <img src="context.png" />
     The <span class="context">context</span>  is a vector of floats. Later in this post we will visualize vectors in color by assigning brighter colors to the cells with higher values.
 </div>
 
@@ -175,14 +175,14 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 <p><br /></p>
 
 <div class="img-div">
-    <img src="/images/embedding.png" />
+    <img src="embedding.png" />
     We need to turn the input words into vectors before processing them. That transformation is done using a <a href="https://en.wikipedia.org/wiki/Word_embedding">word embedding</a> algorithm. We can use <a href="http://ahogrammer.com/2017/01/20/the-list-of-pretrained-word-embeddings/">pre-trained embeddings</a> or train our own embedding on our dataset. Embedding vectors of size 200 or 300 are typical, we're showing a vector of size four for simplicity.
 </div>
 
 <p>Now that we’ve introduced our main vectors/tensors, let’s recap the mechanics of an RNN and establish a visual language to describe these models:</p>
 
 <video width="100%" height="auto" loop="" autoplay="" controls="">
-  <source src="/images/RNN_1.mp4" type="video/mp4" />
+  <source src="RNN_1.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -197,7 +197,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 <p>Let’s look at the <span class="context">hidden states</span>  for the <span class="encoder">encoder</span>. Notice how the last <span class="context">hidden state</span>  is actually the <span class="context">context</span>  we pass along to the <span class="decoder">decoder</span>.</p>
 
 <video width="100%" height="auto" loop="" autoplay="" controls="">
-  <source src="/images/seq2seq_5.mp4" type="video/mp4" />
+  <source src="seq2seq_5.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -208,7 +208,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 <p>Let’s now look at another way to visualize a sequence-to-sequence model. This animation will make it easier to understand the static graphics that describe these models. This is called an “unrolled” view where instead of showing the one <span class="decoder">decoder</span>, we show a copy of it for each time step. This way we can look at the inputs and outputs of each time step.</p>
 
 <video width="100%" height="auto" loop="" autoplay="" controls="">
-  <source src="/images/seq2seq_6.mp4" type="video/mp4" />
+  <source src="seq2seq_6.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -217,7 +217,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 <h1 id="lets-pay-attention-now">Let’s Pay Attention Now</h1>
 <p>The <span class="context">context</span>  vector turned out to be a bottleneck for these types of models. It made it challenging for the models to deal with long sentences. A solution was proposed in <a href="https://arxiv.org/abs/1409.0473">Bahdanau et al., 2014</a> and <a href="https://arxiv.org/abs/1508.04025">Luong et al., 2015</a>. These papers introduced and refined a technique called “Attention”, which highly improved the quality of machine translation systems. Attention allows the model to focus on the relevant parts of the input sequence as needed.</p>
 
-<p><img src="/images/attention.png" /></p>
+<p><img src="attention.png" /></p>
 
 <div class="img-div">
     At time step 7, the attention mechanism enables the <span class="decoder">decoder</span>  to focus on the word "étudiant" ("student" in french) before it generates the English translation. This ability to amplify the signal from the relevant part of the input sequence makes attention models produce better results than models without attention.
@@ -230,7 +230,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 <p>First, the <span class="encoder">encoder</span> passes a lot more data to the <span class="decoder">decoder</span>. Instead of passing the last hidden state of the encoding stage, the <span class="encoder">encoder</span> passes <em>all</em> the <span class="context">hidden states</span>  to the <span class="decoder">decoder</span>:</p>
 
 <video width="100%" height="auto" loop="" autoplay="" controls="">
-  <source src="/images/seq2seq_7.mp4" type="video/mp4" />
+  <source src="seq2seq_7.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -245,7 +245,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 </ol>
 
 <video width="100%" height="auto" loop="" autoplay="" controls="">
-   <source src="/images/attention_process.mp4" type="video/mp4" />
+   <source src="attention_process.mp4" type="video/mp4" />
    Your browser does not support the video tag.
 </video>
 
@@ -267,7 +267,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 </ol>
 
 <video width="100%" height="auto" loop="" autoplay="" controls="">
-   <source src="/images/attention_tensor_dance.mp4" type="video/mp4" />
+   <source src="attention_tensor_dance.mp4" type="video/mp4" />
    Your browser does not support the video tag.
 </video>
 
@@ -277,14 +277,14 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 <p>This is another way to look at which part of the input sentence we’re paying attention to at each decoding step:</p>
 
 <video width="100%" height="auto" loop="" autoplay="" controls="">
-  <source src="/images/seq2seq_9.mp4" type="video/mp4" />
+  <source src="seq2seq_9.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
 <p>Note that the model isn’t just mindless aligning the first word at the output with the first word from the input. It actually learned from the training phase how to align words in that language pair (French and English in our example). An example for how precise this mechanism can be comes from the attention papers listed above:</p>
 
 <div class="img-div">
-<img src="/images/attention_sentence.png" />
+<img src="attention_sentence.png" />
     You can see how the model paid attention correctly when outputing "European Economic Area". In French, the order of these words is reversed ("européenne économique zone") as compared to English. Every other word in the sentence is in similar order.
 </div>
 
