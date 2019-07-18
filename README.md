@@ -1,4 +1,4 @@
-html>
+<html>
   <head>
     <title>Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)</title>
 
@@ -308,12 +308,6 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
     </div>
 
     
-
-
-
-  </body>
-</html>
-
 
       <footer class="site-footer">
         
