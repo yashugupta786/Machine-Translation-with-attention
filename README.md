@@ -1,12 +1,4 @@
 
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-
-<!-- Begin Jekyll SEO tag v2.5.0 -->
-
-    <section class="main-content">
       
 <p>&lt;!DOCTYPE html&gt;</p>
 <html>
