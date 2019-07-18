@@ -1,13 +1,46 @@
 
 <!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>yashu.github.io</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="yashu.github.io" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://yashugupta786.github.io/yashu.github.io/" />
+<meta property="og:url" content="https://yashugupta786.github.io/yashu.github.io/" />
+<meta property="og:site_name" content="yashu.github.io" />
+<script type="application/ld+json">
+{"@type":"WebSite","headline":"yashu.github.io","url":"https://yashugupta786.github.io/yashu.github.io/","name":"yashu.github.io","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="/yashu.github.io/assets/css/style.css?v=96f8da8262a3d0d34d071a81556e6d835fca5a49">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">yashu.github.io</h1>
+      <h2 class="project-tagline"></h2>
+      
+        <a href="https://github.com/yashugupta786/yashu.github.io" class="btn">View on GitHub</a>
+      
+      
+    </section>
+
+    <section class="main-content">
+      
+<p>&lt;!DOCTYPE html&gt;</p>
 <html>
   <head>
     <title>Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention) – Jay Alammar – Visualizing machine learning one concept at a time</title>
 
         <meta charset="utf-8" />
-    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
     
     <meta name="description" content="Translations: Chinese (Simplified), Korean
@@ -67,21 +100,21 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
-    <script src="/js/bootstrap.min.js" > </script>
+    <script src="/js/bootstrap.min.js"> </script>
 
-    <link rel="stylesheet" type="text/css" href="/bower_components/jquery.gifplayer/dist/gifplayer.css"/>
+    <link rel="stylesheet" type="text/css" href="/bower_components/jquery.gifplayer/dist/gifplayer.css" />
     <script type="text/javascript" src="/bower_components/jquery.gifplayer/dist/jquery.gifplayer.js"></script>
 
     <!--
     <script data-main="scripts/main" src="scripts/require.js"></script>
     -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css" integrity="sha384-wE+lCONuEo/QSfLb4AfrSk7HjWJtc4Xc1OiB2/aDBzHzjnlBP4SX7vjErTcwlA8C" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css" integrity="sha384-wE+lCONuEo/QSfLb4AfrSk7HjWJtc4Xc1OiB2/aDBzHzjnlBP4SX7vjErTcwlA8C" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.js" integrity="sha384-tdtuPw3yx/rnUGmnLNWXtfjb9fpmwexsd+lr6HUYnUY4B7JhB5Ty7a1mYd+kto/s" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="/style.css" />
     <link rel="alternate" type="application/rss+xml" title="Jay Alammar - Visualizing machine learning one concept at a time" href="/feed.xml" />
 
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width" />
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 
     <!-- Piwik -->
@@ -324,41 +357,41 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
 
 
     <!-- Begin Mailchimp Signup Form -->
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
     	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
     	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
     	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     </style>
     <div id="mc_embed_signup">
-    <form action="https://github.us19.list-manage.com/subscribe/post?u=2a4ade7dafcdbbf2eb4aae3cf&amp;id=f1f8c03f13" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form action="https://github.us19.list-manage.com/subscribe/post?u=2a4ade7dafcdbbf2eb4aae3cf&amp;id=f1f8c03f13" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
         <div id="mc_embed_signup_scroll">
     	<h2>Subscribe to get notified about upcoming posts by email</h2>
     <div class="mc-field-group">
     	<label for="mce-EMAIL">Email Address </label>
-    	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+    	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
     </div>
     	<div id="mce-responses" class="clear">
     		<div class="response" id="mce-error-response" style="display:none"></div>
     		<div class="response" id="mce-success-response" style="display:none"></div>
     	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2a4ade7dafcdbbf2eb4aae3cf_f1f8c03f13" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2a4ade7dafcdbbf2eb4aae3cf_f1f8c03f13" tabindex="-1" value="" /></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" /></div>
         </div>
     </form>
     </div>
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
     <!--End mc_embed_signup-->
 
 <div style="padding: 10px 0 10px 3%; color: #555; font-size:85%">
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-<br/>
+<br />
 Attribution example:
-<br/>
+<br />
 <i>Alammar, Jay (2018). The Illustrated Transformer [Blog post]. Retrieved from <a href="https://jalammar.github.io/illustrated-transformer/">https://jalammar.github.io/illustrated-transformer/</a></i>
 
-<br/><br/>
+<br /><br />
 Note: If you translate any of the posts, let me know so I can link your translation to the original post. My email is in the <a href="/about">about page</a>.
 </div>
 
@@ -400,5 +433,18 @@ Note: If you translate any of the posts, let me know so I can link your translat
 	<!-- End Google Analytics -->
 
 
+  </body>
+</html>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/yashugupta786/yashu.github.io">yashu.github.io</a> is maintained by <a href="https://github.com/yashugupta786">yashugupta786</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </section>
+
+    
   </body>
 </html>
