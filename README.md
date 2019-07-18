@@ -12,8 +12,6 @@
 
 Watch: MIT’s Deep Learning State of the Art lecture referencing this post
 
-May 25th update: New graphics (RNN animation, word embedding graph), color coding, elaborated on the final attention example.
-
 Note: The animations below are videos. Touch or hover on them (if you’re using a mouse) to get play controls so you can pause if needed.
 
 Sequence-to-sequence models are deep learning models that have achieved a lot of success in tasks like machine translation, text summarization, and image captioning. Google Translate started using such a model in production in late 2016. These models are explained in the two pioneering papers (Sutskever et al., 2014, Cho et al., 2014).
