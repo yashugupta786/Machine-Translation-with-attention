@@ -5,26 +5,6 @@
     <meta charset="UTF-8">
 
 <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>yashu.github.io</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="yashu.github.io" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://yashugupta786.github.io/yashu.github.io/" />
-<meta property="og:url" content="https://yashugupta786.github.io/yashu.github.io/" />
-<meta property="og:site_name" content="yashu.github.io" />
-<script type="application/ld+json">
-{"@type":"WebSite","headline":"yashu.github.io","url":"https://yashugupta786.github.io/yashu.github.io/","name":"yashu.github.io","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="/yashu.github.io/assets/css/style.css?v=96f8da8262a3d0d34d071a81556e6d835fca5a49">
-  </head>
-  <body>
-
-      
-      
-    </section>
 
     <section class="main-content">
       
