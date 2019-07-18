@@ -10,7 +10,7 @@
     
     <meta name="description" content="Translations: Chinese (Simplified), Korean
 
-Watch: MIT’s Deep Learning State of the Art lecture referencing this post
+Watch: MIT’s Deep Learning State of the Art lecture referencing this post.
 
 Note: The animations below are videos. Touch or hover on them (if you’re using a mouse) to get play controls so you can pause if needed.
 
