@@ -333,10 +333,6 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
       </div>
     </div>
 
-    
-
-
-
   </body>
 </html>
 
