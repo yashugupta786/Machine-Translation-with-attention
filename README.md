@@ -81,7 +81,7 @@ A sequence-to-sequence model is a model that takes a sequence of items (words, l
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="/" class="site-avatar"><img src="https://avatars0.githubusercontent.com/u/1007956?s=460&v=4" /></a>
+          <a href="/" class="site-avatar"></a>
 
           <div class="site-info">
             <h1 class="site-name"><a href="/">Jay Alammar</a></h1>
