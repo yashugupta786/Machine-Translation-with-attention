@@ -2,7 +2,7 @@
   <head>
     <title>Visualizing A Neural Machine Translation  Model with Attention Mechanism</title>
 
-<h1>Author:Yashu GUPTA.</h1>
+<h3>Author:YASHU GUPTA.</h3>
 
     
  
