@@ -2,7 +2,7 @@
   <head>
     <title>Visualizing A Neural Machine Translation  Model with Attention Mechanism</title>
 
-Author:Yashu GUPTA
+Author:Yashu GUPTA.
 
 Note: The animations below are videos. Touch or hover on them (if you’re using a mouse) to get play controls so you can pause if needed.
 
