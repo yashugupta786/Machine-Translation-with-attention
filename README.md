@@ -1,17 +1,8 @@
 <html>
   <head>
-    <title>Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)</title>
-
-        <meta charset="utf-8" />
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-
-    
-    <meta name="description" content="Translations: Chinese (Simplified), Korean
+    <title>Visualizing A Neural Machine Translation  Model with Attention Mechanism</title>
 
 Author:Yashu GUPTA
-
 Note: The animations below are videos. Touch or hover on them (if you’re using a mouse) to get play controls so you can pause if needed.
 
 Sequence-to-sequence models are deep learning models that have achieved a lot of success in tasks like machine translation, text summarization, and image captioning. Google Translate started using such a model in production in late 2016. These models are explained in the two pioneering papers (Sutskever et al., 2014, Cho et al., 2014).
